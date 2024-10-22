@@ -1,0 +1,111 @@
+* {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 2px;
+}
+
+
+.lateral {
+    box-sizing: border-box;
+    background-image: linear-gradient(rgb(14, 14, 146), rgb(70, 141, 163));
+    float: left;
+    text-align: center;
+    margin-bottom: 0;
+    flex: 1;
+    color: white;
+    box-shadow: 10px 1px 10px black;
+}
+
+.lateral li,h4{
+    text-align: left;
+}
+
+.lateral h4 {
+    margin-left: 30px;
+}
+
+.lateral ul {
+    margin-bottom: 70px;
+    margin-left: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.ore {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    margin-top: 20px;
+}
+
+/*abaixo só altera valores contidos no corpo do site*/
+body {
+    box-sizing: border-box;
+    margin: 0px;
+    border: 5px rgba(54, 50, 50, 0.74) solid;
+    box-shadow: inset 4px 4px 4px;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    background: linear-gradient(to bottom,#ffffff,#f2f2f2);
+}
+
+
+.corpo {
+    box-sizing: border-box;
+    margin: 0;
+    height: 100%;
+    width: 70%;
+    border: solid 3vw;
+    border-color: rgba(255, 255, 255, 0);
+    display: block;
+    overflow: auto;
+}
+
+.nome,
+.cargo {
+    text-align: center;
+    margin: 30px;
+}
+
+.nome {
+    color: #1d5db1;
+    font-size: 50px;
+    border: 0;
+    border-bottom: 1px;
+    border-style: solid;
+    border-color: black;
+    text-shadow: 3px 3px 3px black;
+}
+
+.cargo {
+    font-size: 35px;
+    color: skyblue;
+    text-shadow: 1px 1px 0 #23818d;
+    margin-bottom: 60px;
+}
+
+.titulos {
+    color: skyblue;
+    text-shadow: 1px 1px 0 #23818d;
+    font-size: 25px;
+}
+
+.funcao {
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+.subtitulo {
+    margin-top: 0;
+    color: lightslategray;
+}
+
+.corpo p,li,ul {
+    font-size: 15px;
+    line-height: 40px;
+}
